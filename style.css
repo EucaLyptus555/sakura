@@ -1,0 +1,349 @@
+
+body {
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-size: 20px;
+    
+
+}
+
+.section1 {
+    height: 100vh;
+    background-image: url(./img/bgr1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    font-family: 'Raleway', sans-serif;
+    
+}
+.btn {
+    background-color: rgb(143, 34, 34);
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    height: fit-content;
+    padding: 6px 20px 6px 20px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: initial;
+    border: solid 1px;
+
+}
+
+.rechts {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.rechts a {
+    font-weight: bold;
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.rechts a:hover {
+    color: rgb(175, 68, 68);
+
+}
+.header {
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    padding-bottom: 0px;
+    
+}
+.subhead {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.header h1 {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.rechts span {
+    margin-left: 3px;
+}
+.order {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: rgb(143, 34, 34);
+    text-align: center;
+    margin-bottom: 100px;
+}
+.pics {
+    display: flex;
+    justify-content: space-around;
+}
+.meals h3{
+    margin-top: 0px;
+}
+.meals2 h3{
+    margin-top: 0px;
+}
+.pic1 {
+    display: flex;
+    font-family: 'Economica', sans-serif;
+    font-size: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.pics img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.section3 {
+    
+    background-image: url(./img/background.jpg);
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    
+}
+.section3 h2 {
+    text-align: center;
+    color: rgb(143, 34, 34);
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.meals {
+    display: flex;
+    justify-content: center;
+    font-family: 'Economica', sans-serif;
+    margin-top: 50px;;
+}
+.meals h3 {
+    font-size: 72px;
+}
+.table {
+    
+    font-size: 32px;
+    color: rgb(67, 85, 99);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    
+    
+    
+    
+}
+.section3 img {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 300px;
+    
+}
+.meals2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Economica', sans-serif;
+    margin-top: 50px;;
+}
+.meals2 h3 {
+    font-size: 72px;
+}
+
+.section4 h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(143, 34, 34);
+    margin: 2px 0px 2px 0px;
+}
+.adress {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.adress img {
+    width: 20px;
+    padding-right: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*text-align: center;*/
+    color:rgb(143, 34, 34);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px 150px 30px 150px;
+}
+.footer img {
+    padding-right: 20px;
+    
+}
+.icons img {
+    width: 50px;
+}
+.menu3 {
+    padding: 0px 200px 0px 0px;
+}
+.footer2 {
+    display: flex;
+    text-align: center;
+}
+.footer span{
+    padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    .display-none {
+        display: none;
+    }
+
+    .pics {
+        flex-direction: column;
+    }
+
+    .meals {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .meals2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 5px;
+
+    }
+
+    .meals h3 {
+        font-size: 24px;
+    }
+
+    .meals2 h3 {
+        font-size: 24px;
+    }
+
+    .table {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        padding: 20px 100px 20px 100px;
+    }
+
+    .icons {
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    .section3 {
+        /*background-size: 300%;
+        background-position: center;*/
+        margin-top: 20px;
+    }
+
+    .section3 img {
+        width: 200px;
+    }
+
+    /*.section1 {
+        background-size: 300%;
+        background-position: center;
+    }*/
+
+    .section4 span {
+        font-size: 16px;
+    }
+
+    .section3 h2 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    .order h2 {
+        margin-bottom: 0 !important;
+    }
+
+    .order {
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 5px;
+    }
+
+    .pic1 {
+        padding-top: 30px;
+        
+    }
+
+    .pic1 img {
+        margin-bottom: 5px;
+    }
+
+    .pic1 span {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rechts a {
+        margin-left: 0;
+    }
+
+    /*.section3 {
+        background-size: 400%;
+    }*/
+
+    .section3 img {
+        width: 150px;
+    }
+
+    .menu3 {
+        padding-right: 100px;
+    }
+
+    .section4 span {
+        font-size: 12px;
+    }
+    
+    .adress {
+        align-items: center;
+    }
+  
+}
